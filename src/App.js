@@ -4,7 +4,7 @@ import { View } from "@aws-amplify/ui-react";
 
 export default function App() {
   return (
-    <View padding="5rem">
+    <View padding = {{base: "1rem", large:"6rem"}}>
       <Authenticator loginMechanisms={['email']}>
         {({ signOut, user }) => (
           <main>
