@@ -15,6 +15,9 @@
       "auth": {
         "awsamplifyreactb4bc7820": {},
         "awsamplifyreact": {}
+      },
+      "api": {
+        "awsamplifyreact": {}
       }
     }
   }
